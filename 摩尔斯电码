@@ -51,7 +51,7 @@ void loop() {
       for (t = 0; t < 4; t++)
       {
         //判断是否为小写字母，如果是则转义
-        if (str[i] >= 97 && str[i] <= 122)
+        if (str[i] >= 'a' && str[i] <= 'z')
         {
           morse += char(MORSE[int(str[i] - 97)][t]);
         }
