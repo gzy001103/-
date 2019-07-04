@@ -67,6 +67,6 @@ void loop(){
 	      else if (morse_s[i] == ' ')morse.w_space();
 	      if (morse_s[i] != ' ' && str[i] != '*')morse.c_space();
 	    }
-	    Serial.println("发送完毕");
+	    Serial.println("End");
 	    delay(2);
     }
